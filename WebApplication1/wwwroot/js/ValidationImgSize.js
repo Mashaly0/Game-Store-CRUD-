@@ -1,0 +1,1 @@
+﻿$.validator.addMethod('filesize', function (value, element, param) { return this.isValid = this.optional(element) || element.files[0].size <= param; });
